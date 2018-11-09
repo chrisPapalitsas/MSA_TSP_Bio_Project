@@ -10,7 +10,6 @@ public class QubitNManager {
     // The qubits
     private ArrayList<QubitN> elements;
 
-    //
     private ArrayList<Double> eigenValues;
 
     private ArrayList<Node2>nodes;
@@ -44,7 +43,7 @@ public class QubitNManager {
         // we generate the eigen values
         generateEigenValues();
 
-        //  we random map the eigen values to nodes.
+        // map randomly the eigen values to nodes.
         // Not all eigen values are mapped.
         
              
@@ -60,7 +59,7 @@ public class QubitNManager {
             eigenValues.set(epos, new Double(-1));
           
         }        
-        // we sort the nodes using the eigen values
+        // sort the nodes using the eigen values
         Collections.sort(nodes, new Comparator<Node2>() {
             @Override
             public int compare(Node2 lhs, Node2 rhs) {
