@@ -5,9 +5,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Random;
 
-/**
- * Created by Administrator on 5/14/2017.
- */
 public class QubitNManager {
 
     // The qubits
@@ -30,10 +27,10 @@ public class QubitNManager {
     }
 
     public void prepeareAll() {
-        // we calculate the number of qubitNumbers
+        // calculate the number of qubitNumbers
         calculateQubitNumber();
 
-        // We generate the qubitNumbers
+        // generate the qubitNumbers
         elements = new ArrayList<QubitN>(qubitNumber);
         Random rand = new Random();
         for ( int i = 0 ; i < qubitNumber; i++) {
@@ -47,7 +44,7 @@ public class QubitNManager {
         // we generate the eigen values
         generateEigenValues();
 
-        // Randomly we map the eigen values to nodes.
+        //  we random map the eigen values to nodes.
         // Not all eigen values are mapped.
         
              
