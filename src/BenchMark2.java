@@ -26,7 +26,7 @@ public class BenchMark2 {
 			this.number_of_nodes = parser(filename); 
 
 //			 System.out.println(number_of_nodes);
-			this.costMatrix = new CostMatrixElement[number_of_nodes][number_of_nodes]; // ΟΠΙΝΑΚΑΣ ΚΟΣΤΟΥΣ ΑΡΧΙΚΟΠΟΙΕΙΤΕ ΜΕ ΒΑΣΗ ΤΟ ΠΛΗΘΟΣ ΚΟΜΒΩΝ
+			this.costMatrix = new CostMatrixElement[number_of_nodes][number_of_nodes]; // Ο ΠΙΝΑΚΑΣ ΚΟΣΤΟΥΣ ΑΡΧΙΚΟΠΟΙΕΙΤΕ ΜΕ ΒΑΣΗ ΤΟ ΠΛΗΘΟΣ ΚΟΜΒΩΝ
 			// ΥΠΟΛΟΓΙΖΕΙ ΤΙΣ ΕΥΚΛΕΙΔΙΕΣ ΑΠΟΣΤΑΣΕΙΣ
 			for (int i = 0; i < number_of_nodes; i++) {
 				for (int j = 0; j < number_of_nodes; j++) {
@@ -82,18 +82,12 @@ public class BenchMark2 {
 				if(strLine.equals("EOF")) {
 					continue;
 				}
-				if (!foundfirstline && strLine.startsWith("  1")) { // kapou edw
-																	// ksekinoun
-																	// ta
-																	// dedomena
-																	// tou
-																	// provlimatos
-
+				if (!foundfirstline && strLine.startsWith("  1")) { //here starts our benchmark's data
 					foundfirstline = true;
 				}
 
 				if (foundfirstline) {
-					StringTokenizer st = new StringTokenizer(strLine, "\t "); // spaw to line se token me vasi to tab
+					StringTokenizer st = new StringTokenizer(strLine, "\t "); //line is splitting to tokens based to tab
 					st.nextToken();
 					lines++; 
 					if(lines==280) {
