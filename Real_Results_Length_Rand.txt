@@ -1,9 +1,0 @@
-N 	 Seq 	 NoS 	 Max Length 	 UPGA 	 single 	 NeighborJoin 	 Sorted 	 TSP1 	 TSP2
-6 	 data_Read/seqs/real/Real06.faa 	 28 	 0 	 5274 	 5274 	 5274 	 5274 	 5274 	 5274
-7 	 data_Read/seqs/real/Real07.faa 	 118 	 0 	 1990 	 1990 	 1990 	 1990 	 1990 	 1990
-8 	 data_Read/seqs/real/Real08.faa 	 135 	 0 	 6832 	 6832 	 6832 	 6832 	 6832 	 6832
-9 	 data_Read/seqs/real/Real09.faa 	 16 	 0 	 4170 	 4170 	 4170 	 4170 	 4170 	 4170
-10 	 data_Read/seqs/real/Real10.faa 	 267 	 0 	 2013 	 2013 	 2013 	 2013 	 2013 	 2013
-11 	 data_Read/seqs/real/Real11.faa 	 503 	 0 	 1955 	 1955 	 1955 	 1955 	 1955 	 1955
-12 	 data_Read/seqs/real/Real12.faa 	 35 	 0 	 6283 	 6283 	 6283 	 6283 	 6283 	 6283
-13 	 data_Read/seqs/real/Real13.faa 	 233 	 0 	 2726 	 2726 	 2726 	 2726 	 2726 	 2726
