@@ -1,2 +1,0 @@
-N 	 Seq 	 NoS 	 Max Length 	 UPGA 	 single 	 NeighborJoin 	 Sorted 	 TSP1 	 TSP2
-1 	 data_Read/seqs/real/Real01.faa 	 898 	 0 	 2453091 	 4742966 	 3406957 	 7757834 	 8268588 	 7757834
